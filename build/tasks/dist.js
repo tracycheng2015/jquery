@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 			"dist/jquery.min.js"
 		];
 
-	// Process files for distribution
+	// Process files for distribution test
 	grunt.registerTask( "dist", function() {
 		var stored, flags, paths, nonascii;
 
